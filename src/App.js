@@ -1,7 +1,6 @@
 import Header from "./components/Header";
 import Technologies from "./components/Technologies";
 
-
 const App = () => {
   return (
     <div>
