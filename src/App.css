@@ -62,7 +62,6 @@
 
 .content .profile-avatar {
   grid-area: pavatar;
-  border: 1px red solid;
 }
 
 .content .profile-avatar img {
@@ -71,10 +70,8 @@
 
 .content .profile-description {
   grid-area: pdescription;
-  border: 1px red solid;
 }
 
 .content .profile-posts {
   grid-area: pposts;
-  border: 1px red solid;
 }
