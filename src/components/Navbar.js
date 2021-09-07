@@ -1,19 +1,23 @@
+import style from './../styles/Navbar.module.css';
+
+console.log(style);
+
 const Navbar = () => {
     return (
-        <nav className="nav">
-            <div className="links">
-                <a href="#">Profile</a>
+        <nav className={style.nav}>
+            <div className={style.links}>
+                <a href="#" className={style.active}>Profile</a>
             </div>
-            <div className="links">
+            <div className={style.links}>
                 <a href="#">Messages</a>
             </div>
-            <div className="links">
+            <div className={style.links}>
                 <a href="#">News</a>
             </div>
-            <div className="links">
+            <div className={style.links}>
                 <a href="#">Music</a>
             </div>
-            <div className="links">
+            <div className={style.links}>
                 <a href="#">Settings</a>
             </div>
         </nav>

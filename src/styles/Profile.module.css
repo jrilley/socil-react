@@ -1,0 +1,39 @@
+.content {
+    grid-area: c;
+    background-color: lightsteelblue;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: 
+    "pbanner pbanner"
+    "pavatar pdescription"
+    "pposts pposts";
+  
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 180px 1fr;
+    grid-gap: 20px;
+  }
+  
+  .content .profile_banner {
+    grid-area: pbanner;
+  }
+  
+  .content .profile_banner img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content .profile_avatar {
+    grid-area: pavatar;
+  }
+  
+  .content .profile_avatar img {
+    width: 128px;
+  }
+  
+  .content .profile_description {
+    grid-area: pdescription;
+  }
+  
+  .content .profile_posts {
+    grid-area: pposts;
+  }
